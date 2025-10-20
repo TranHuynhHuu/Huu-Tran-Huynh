@@ -1,0 +1,5 @@
+{
+  "name": "Quản lý công việc Team Thiết kế",
+  "description": "Một ứng dụng quản lý công việc dành cho các nhóm thiết kế, cho phép người quản lý giao việc và các thành viên trong nhóm theo dõi công việc của họ trên bảng Kanban trực quan. Dựa trên sơ đồ quy trình làm việc do người dùng cung cấp.",
+  "requestFramePermissions": []
+}

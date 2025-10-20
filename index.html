@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý công việc Team Thiết kế</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<style>
+    :root {
+        --background-start-rgb: 15, 23, 42; /* slate-900 */
+        --background-end-rgb: 0, 0, 0;
+        --text-primary: #e2e8f0; /* slate-200 */
+        --text-secondary: #94a3b8; /* slate-400 */
+        --accent-primary: #818cf8; /* indigo-400 */
+        --accent-secondary: #4f46e5; /* indigo-600 */
+        --border-color: rgba(255, 255, 255, 0.1);
+        --card-bg: rgba(30, 41, 59, 0.7); /* slate-800 with opacity */
+        --font-sans: 'Inter', sans-serif;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        color: var(--text-primary);
+        background-color: rgb(var(--background-start-rgb));
+        background-image: radial-gradient(at 50% 0%, rgba(124, 58, 237, 0.15) 0px, transparent 50%); /* purple-700 */
+    }
+    
+    .calendar-picker-indicator-white {
+        filter: invert(1);
+    }
+    
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #1e293b; /* slate-800 */
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #4b5563; /* gray-600 */
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280; /* gray-500 */
+    }
+    
+    .glass-modal-bg {
+        background-color: rgba(17, 24, 39, 0.6);
+        backdrop-filter: blur(8px);
+    }
+</style>
+</head>
+<body class="bg-slate-900 text-slate-200">
+<div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
